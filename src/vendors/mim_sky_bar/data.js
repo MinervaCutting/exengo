@@ -11,7 +11,7 @@ export const mimskybar = {
   type: "Meals",
   unitcost: 60,
   pax: 50,
-  date: "Dinner",
+  date: "Welcome drink + cocktail dinner 20.00h -22.00h",
   explanation: "Welcome drink + Cocktail dinner including red and white wine, beer and mineral water, bread and coffee",
 };
 

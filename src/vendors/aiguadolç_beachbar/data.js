@@ -11,7 +11,7 @@ export const aiguadolçbeachbar = {
   type: "Meals",
   unitcost: 37.5,
   pax: 25,
-  date: "Lunch",
+  date: "May 5th -12.30h - 14.30h",
 };
 
 export const text = {

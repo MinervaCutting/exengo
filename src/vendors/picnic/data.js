@@ -11,7 +11,7 @@ export const picnic = {
   type: "Meals",
   unitcost: 52,
   pax: 50,
-  date: "Lunch",
+  date: "May 6th - 13.00h-15.00h",
   explanation:"3-course lunch, coffee, wine : 1 bottle x 3 pax. Beer and soft drinks not incl",
 };
 

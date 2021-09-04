@@ -11,7 +11,7 @@ export const kayakexcursion = {
   type: "Activities",
   unitcost: 68,
   pax: 50,
-  date: "Afternoon activity",
+  date: "May 6th - 15.30h -17.30h",
 };
 
 export const text = {

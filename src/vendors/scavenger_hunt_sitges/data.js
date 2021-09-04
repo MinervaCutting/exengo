@@ -11,7 +11,7 @@ export const scavengerhuntsitges = {
   type: "Activities",
   unitcost: 70,
   pax: 50,
-  date: "Afternoon activity",
+  date: "May 5th - 16.30h- 19.30h",
 };
 
 export const text = {

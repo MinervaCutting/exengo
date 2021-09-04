@@ -11,7 +11,7 @@ export const meetingroom = {
   type: "Activity",
   unitcost: 1800,
   pax: 1,
-  date: "May 6th, 2022",
+  date: "May 6th-8.30h 12.30h",
   explanation: "Including Screen, projector, flipchart and Coffee break (coffees, teas, fruit juices, water and 2 pastries per person)",
 };
 

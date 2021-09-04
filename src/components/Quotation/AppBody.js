@@ -12,6 +12,11 @@ import MimSkyBar from "../../vendors/mim_sky_bar/MimSkyBar";
 import MeetingRoom from "../../vendors/meetingroom/MeetingRoom";
 import Picnic from "../../vendors/picnic/Picnic";
 import KayakExcursion from "../../vendors/kayak_excursion/KayakExcursion";
+import TabernaDelPort from "../../vendors/taberna_del_port/TabernaDelPort";
+import Trekking from "../../vendors/trekking/Trekking";
+import LaDaurada from "../../vendors/la_daurada/LaDaurada";
+
+
 
 
 
@@ -130,27 +135,19 @@ export default function AppBody() {
       <Typography variant='h6' paragraph>
       At 20.00h guests will meet at the hotel lobby to pick up a coach that will transfer them to the restaurant for dinner
       </Typography>
-      <Typography variant='h4' gutterBottom id='day_two_4'>
-       Restaurant La Taberna del Port
-      </Typography>
-      <Typography variant='h4' >
-        *FICHA*
-      </Typography>
-
-      <Typography variant='h4' gutterBottom id='day_three'>
+      <TabernaDelPort />
+            <Typography variant='h4' gutterBottom id='day_three'>
         <strong>Saturday, May 7th </strong>
       </Typography>
       <Typography variant='h4' gutterBottom id='day_three_1'>
-      Trekking Activity
+      Trekking Activity - Excursion to the Garraf Natural Park
       </Typography>
-      <Typography variant='h4' >
-        *FICHA*
-      </Typography>
+      <Trekking />
       <Typography variant='h6' paragraph>
-      In the morning, before leaving the hotel, each guest will be given a bag with two medium sandwiches, a piece of fruit, a chocolate bar and a bottle of water.
-This packed lunch is provided so that they can make a stop during the activity to have lunch.
+      <em>The picnic will be packed with recycled and recyclable products. We will order it from the hotel who will make sure that the packaging is as sustainable as possible.</em>
       </Typography>
-      <Typography variant='h6' paragraph>
+
+       <Typography variant='h6' paragraph>
       At the end of the activity, the bus will take them back to the hotel where they will enjoy some free time until dinner.
       </Typography>
       <Typography variant='h6' paragraph>
@@ -159,11 +156,7 @@ This packed lunch is provided so that they can make a stop during the activity t
       <Typography variant='h4' gutterBottom id='day_three_2'>
         La Daurada
       </Typography>
-      <Typography variant='h4' >
-        *FICHA*
-      </Typography>
-
-
+    <LaDaurada />
       <Typography variant='h4' gutterBottom id='day_four'>
         <strong>Sunday, May 8th </strong>
       </Typography>
