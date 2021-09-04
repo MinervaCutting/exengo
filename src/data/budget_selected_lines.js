@@ -11,6 +11,9 @@ import { selectHotel } from "../features/HotelSlice";
 import { aiguadolçbeachbar } from "../vendors/aiguadolç_beachbar/data";
 import { scavengerhuntsitges } from "../vendors/scavenger_hunt_sitges/data";
 import { mimskybar } from "../vendors/mim_sky_bar/data";
+import { meetingroom } from "../vendors/meetingroom/data";
+import { picnic } from "../vendors/picnic/data";
+import { kayakexcursion } from "../vendors/kayak_excursion/data";
 
 export const useBudgetRows = () => {
   const hotel = useSelector(selectHotel);
@@ -24,6 +27,9 @@ export const useBudgetRows = () => {
     { event: "Tapas Lunch at Aguadolç Beach Bar", selected: aiguadolçbeachbar },
     { event: "Scavengers Hunt Activity", selected: scavengerhuntsitges },
     { event: "Dinner at MiM's Skybar", selected: mimskybar },
+    { event: "Meetings room rental and coffee break", selected: meetingroom },
+    { event: "Lunch at PicNic restaurant", selected: picnic },
+    { event: "Kayak excursion", selected: kayakexcursion},
   
   
   ];

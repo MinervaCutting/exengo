@@ -9,6 +9,9 @@ import ReactToPrint from "react-to-print";
 import Footer from "../StickyFooter/Footer";
 import MeliaSitges from "../../vendors/melia_sitges/MeliaSitges";
 import MimSkyBar from "../../vendors/mim_sky_bar/MimSkyBar";
+import MeetingRoom from "../../vendors/meetingroom/MeetingRoom";
+import Picnic from "../../vendors/picnic/Picnic";
+import KayakExcursion from "../../vendors/kayak_excursion/KayakExcursion";
 
 
 
@@ -108,30 +111,19 @@ export default function AppBody() {
       <Typography variant='h4' gutterBottom id='day_two_1'>
         Meeting
       </Typography>
-      <Typography variant='h6' paragraph>
-        Half Day meeting. Meeting room: 112m2 with natural daylight. 
-      </Typography>
-      <Typography variant='h4' >
-        *FOTOS*
-      </Typography>
+      <MeetingRoom />
+
       <Typography variant='h6' paragraph>
         After the meeting they will go walking to restaurant Picnic for lunch
       </Typography>
-      <Typography variant='h4' gutterBottom id='day_two_2'>
-        Restaurant Picnic
-      </Typography>
-      <Typography variant='h4' >
-        *FICHA*
-      </Typography>
+       <Picnic />
       <Typography variant='h6' paragraph>
       After lunch, guests will walk for about 15 minutes to Terramar beach, where they will start a beautiful kayak trip along the coast.
       </Typography>
       <Typography variant='h4' gutterBottom id='day_two_3'>
        Kayak Excursion
       </Typography>
-      <Typography variant='h4' >
-        *FICHA*
-      </Typography>
+      <KayakExcursion />
       <Typography variant='h6' paragraph>
       Once finished the activity guests will enjoy some free time. They have the option to return to the hotel, walking around 15 to 20 minutes or enjoy the beach, go shopping... 
       </Typography>
