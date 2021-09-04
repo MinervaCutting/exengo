@@ -11,7 +11,7 @@ import Budget from "../Budget/Budget";
 import ElArenal from "../../vendors/el_arenal/ElArenal";
 import Nuria from "../../vendors/nuria/Nuria";
 import WalkingTour from "../../vendors/walking_tour/WalkingTour";
-import CorCaliu from "../../vendors/cor_caliu/CorCaliu";
+import AiguadolçBeachbar from "../../vendors/aiguadolç_beachbar/AiguadolçBeachbar";
 import Mana75 from "../../vendors/mana_75/Mana75";
 import MarinaMonchos from "../../vendors/marina_monchos/MarinaMonchos";
 import { useRef } from "react";
@@ -84,13 +84,13 @@ export default function AppBody() {
         <strong>Thursday, May 5th - Arrival Day</strong>
       </Typography>
       <Typography variant='h6' paragraph>
-        First group of 25 guests will arrive in Barcelona's Airport at 11.15h, so we calculate that they will be in Sitges at 12.30h. They will have lunch at  <strong>Aiguadols Beachbar</strong>, while the bus is waiting for them with the luggage inside.
+        First group of 25 guests will arrive in Barcelona's Airport at 11.15h, so we calculate that they will be in Sitges at 12.30h. They will have lunch at  <strong>Aiguadolç Beachbar</strong>, while the bus is waiting for them with the luggage inside.
       </Typography>
       <Typography variant='h4' gutterBottom id='day_one_1'>
-        Aiguadols Beach Bar
+        Aiguadolç Beach Bar
       </Typography>
       <Typography variant='h4' >
-        *FICHA*
+      <AiguadolçBeachbar />
       </Typography>
      
       <Typography variant='h6' paragraph>
