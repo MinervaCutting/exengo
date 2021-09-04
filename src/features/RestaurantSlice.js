@@ -1,12 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { mana75 } from "../vendors/mana_75/data";
-import { nuria } from "../vendors/nuria/data";
+import { aiguadolçbeachbar } from "../vendors/aiguadolç_beachbar/data";
+import { mimskybar } from "../vendors/mim_sky_bar/data";
 
 export const restaurantSlice = createSlice({
   name: "restaurant",
   initialState: {
-    day1Dinner: nuria,
-    day2Dinner: mana75,
+    day1Dinner: aiguadolçbeachbar,
+    day2Dinner: mimskybar,
   },
   reducers: {
     SET_DAY1DINNER: (state, action) => {

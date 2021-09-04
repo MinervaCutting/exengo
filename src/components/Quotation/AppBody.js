@@ -1,23 +1,15 @@
 import { Paper, makeStyles, Typography, Button } from "@material-ui/core";
 import VendorOptionsTab from "../../utils/TabPanel";
-import LaPedrera from "../../vendors/la_pedrera/LaPedrera";
-import Montblanc from "../../vendors/melia_sitges/MeliaSitges";
 import MiM from "../../vendors/mim/MiM";
-import ElGlop from "../../vendors/el_glop/ElGlop";
-import FabricaMoritz from "../../vendors/fabrica_moritz/FabricaMoritz";
-import BcnExperience from "../../vendors/fcbcn_experience/BcnExperience";
-import TapasTour from "../../vendors/tapas_tour/TapasTour";
+import ScavengersHuntSitges from "../../vendors/scavenger_hunt_sitges/ScavengersHuntSitges";
 import Budget from "../Budget/Budget";
-import ElArenal from "../../vendors/el_arenal/ElArenal";
-import Nuria from "../../vendors/nuria/Nuria";
-import WalkingTour from "../../vendors/walking_tour/WalkingTour";
 import AiguadolçBeachbar from "../../vendors/aiguadolç_beachbar/AiguadolçBeachbar";
-import Mana75 from "../../vendors/mana_75/Mana75";
-import MarinaMonchos from "../../vendors/marina_monchos/MarinaMonchos";
 import { useRef } from "react";
 import ReactToPrint from "react-to-print";
 import Footer from "../StickyFooter/Footer";
 import MeliaSitges from "../../vendors/melia_sitges/MeliaSitges";
+import MimSkyBar from "../../vendors/mim_sky_bar/MimSkyBar";
+
 
 
 export default function AppBody() {
@@ -89,10 +81,7 @@ export default function AppBody() {
       <Typography variant='h4' gutterBottom id='day_one_1'>
         Aiguadolç Beach Bar
       </Typography>
-      <Typography variant='h4' >
-      <AiguadolçBeachbar />
-      </Typography>
-     
+       <AiguadolçBeachbar />
       <Typography variant='h6' paragraph>
         Between 14.30h and 15.00h guests from the first group will arrive from the restaurant and they will do the check-ing. The Second group will arrive in Barcelona's Airport at 13.50h, so we calculate that they will be at the hotel at 15.00h to do the check-in too.
       </Typography>
@@ -103,18 +92,16 @@ export default function AppBody() {
       <Typography variant='h4' gutterBottom id='day_one_2'>
         Rally gimkhana scavenger hunt in Sitges
       </Typography>
-      <Typography variant='h4' >
-        *FICHA*
-      </Typography>
+      <ScavengersHuntSitges />
+
       <Typography variant='h6' paragraph>
         The activity will end at the hotel, They will have a few minutes to refresh and then they will go to the Skybar at the 7th floor to enjoy a welcome drink and a very nice dinner.
       </Typography>
       <Typography variant='h4' gutterBottom id='day_one_3'>
        MiM Skybar
       </Typography>
-      <Typography variant='h4' >
-        *FOTOS*
-      </Typography>
+      <MimSkyBar />
+    
       <Typography variant='h4' gutterBottom id='day_two'>
         <strong>Friday, May 6th </strong>
       </Typography>

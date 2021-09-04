@@ -3,7 +3,7 @@ import { useStyles } from "../vendorStyles/styles";
 import { images, text } from "./data";
 import Paragraph from "../../utils/Paragraph";
 
-export default function WalkingTour() {
+export default function ScavengersHuntSitges() {
   const classes = useStyles();
   return (
     <div className={classes.text}>
