@@ -23,98 +23,69 @@ export const toc = [
   },
   {
     id: "day_one",
-    title: "Friday, May 20th 2022",
-    date: "May 20th, 2022",
+    title: "Thursday, May 5th 2022",
+    date: "May 5th, 2022",
     options: [
       {
         id: "day_one_1",
-        service: "Tapas Tour for Lunch",
+        service: "Aiguadols Beach Bar",
       },
       {
         id: "day_one_2",
-        service: "Tasting at Fabrica Moritz",
+        service: "Rally scavenger hunt",
       },
       {
         id: "day_one_3",
-        service: "Dinner at Fabrica Moritz",
+        service: "Dinner at MiM Skybar",
       },
     ],
   },
   {
     id: "day_two",
-    title: "Saturday, May 21st ",
-    date: "May 21st, 2022",
+    title: "Friday, May 6th ",
+    date: "May 6th, 2022",
     options: [
       {
         id: "day_two_1",
-        service: "FC Barcelona Experience",
+        service: "Meeting at the hotel",
       },
       {
         id: "day_two_2",
-        service: "Lunch at El Arenal",
+        service: "Lunch at Restaurant Picnic",
       },
       {
         id: "day_two_3",
-        service: "Dinner alternatives",
-        choices: [
-          {
-            id: "d2d0",
-            tabPosition: 0,
-            service: "Cafeteria Nuria",
-          },
-          {
-            id: "d2d1",
-            tabPosition: 1,
-            service: "El Glop",
-          },
-        ],
+        service: "Kayak Excursion",
+      },
+      {
+        id: "day_two_4",
+        service: "La Taberna del Port",
       },
     ],
   },
   {
     id: "day_three",
-    title: "Sunday, May 22nd ",
-
-    date: "May 22nd, 2022",
+    title: "Saturday, May 7th ",
+    date: "May 7th, 2022",
     options: [
       {
         id: "day_three_1",
-        service: "Walking tour",
+        service: "Trekking Activity including packed lunch",
       },
       {
         id: "day_three_2",
-        service: "Lunch at Cor Caliu",
+        service: "Dinner at La Daurada",
       },
-      {
-        id: "day_three_3",
-        service: "Game at FCBarcelona",
-      },
-      {
-        id: "day_three_4",
-        service: "Dinner alternatives",
-        choices: [
-          {
-            id: "d3d0",
-            tabPosition: 0,
-            service: "Mana 75",
-          },
-          {
-            id: "d3d1",
-            tabPosition: 1,
-            service: "Marina Moncho's",
-          },
-        ],
-      },
-    ],
+         ],
   },
   {
     id: "day_four",
-    title: "Monday, May 23rd ",
-    date: "May 23rd, 2022",
+    title: "Sunday, May 8th ",
+    date: "May 8th, 2022",
     options: [
       {
         id: "day_four_1",
-        service: "Free day and Transfer out",
+        service: "Transfer out",
       },
     ],
   },

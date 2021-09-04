@@ -14,9 +14,9 @@ export default function MiM() {
         <Typography variant='h4' gutterBottom>
           Hotel MiM
         </Typography>
-        <Rating name='read-only' value={3} readOnly emptyIcon />
+        <Rating name='read-only' value={4} readOnly emptyIcon />
         <Typography component='subtitle1'>
-          <sup>Superior</sup>
+          <sup></sup>
         </Typography>
       </div>
       <div className={classes.text}>

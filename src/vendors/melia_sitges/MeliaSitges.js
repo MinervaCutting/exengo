@@ -9,12 +9,12 @@ import Paragraph from "../../utils/Paragraph";
 export default function MeliaSitges() {
   const classes = useStyles();
   return (
-    <div id='Hotel HCC Montblanc' className={classes.root}>
+    <div id='Hotel melia_sitges' className={classes.root}>
       <div className={classes.title}>
         <Typography variant='h4' gutterBottom>
           Hotel Melià Sitges
         </Typography>
-        <Rating name='read-only' value={3} readOnly emptyIcon />
+        <Rating name='read-only' value={4} readOnly emptyIcon />
         {/*  <Typography component='subtitle1'>
           <sup>Luxury</sup>{" "}
         </Typography> */}

@@ -57,25 +57,20 @@ export default function AppBody() {
   return (
     <Paper elevation={2} className={classes.bodyContainer}>
       <Typography variant='h4' gutterBottom>
-        Quotation for the group <strong>Generali</strong>
+        Quotation for the group <strong>Exengo</strong>
       </Typography>
       <Typography variant='h6' gutterBottom>
-        Cutting Edge Events - July 22nd, 2021
+        Cutting Edge Events - September 3rd, 2021
       </Typography>
 
       <Typography variant='h6' gutterBottom>
-        Dear <strong>Pavla</strong>. We have prepared this offer with your group
+        Dear <strong>Frowald</strong>. We have prepared this offer with your group
         in mind. We have designed a program that will help your group have a
-        terrific time in Barcelona - discover all its hidden corners, eat
-        delicious mediterranean food with views of the Mediterranean, or prime
-        locations in the city, and all in all, enjoy their visit to the full.
+        terrific time in Sitges. 
       </Typography>
 
       <Typography variant='h6' gutterBottom>
-        If you choose <strong>Hotel HCC Montblanc</strong>, they have offered a
-        supplement for half board of €24p.p for dinner - so you can skip some
-        dinners with this half board if you really need to adjust to a tight
-        budget.
+      Our guests will be able to enjoy the beach, the shopping areas in the centre of the village, located in the narrow streets, beautiful and full of history, and the nightlife of this small but very active village.
       </Typography>
 
       <Typography variant='h4' gutterBottom id='accommodation'>
@@ -86,94 +81,121 @@ export default function AppBody() {
         <MeliaSitges />
       </VendorOptionsTab>
       <Typography variant='h4' gutterBottom id='day_one'>
-        <strong>Friday, May 20th - Arrival Day</strong>
+        <strong>Thursday, May 5th - Arrival Day</strong>
       </Typography>
       <Typography variant='h6' paragraph>
-        As your plane lands, we will meet you at the airport, and transfer the
-        group to the Hotel. This will be our starting point for the tapas tour
+        First group of 25 guests will arrive in Barcelona's Airport at 11.15h, so we calculate that they will be in Sitges at 12.30h. They will have lunch at  <strong>Aiguadols Beachbar</strong>, while the bus is waiting for them with the luggage inside.
       </Typography>
       <Typography variant='h4' gutterBottom id='day_one_1'>
-        Tapas Tour
+        Aiguadols Beach Bar
       </Typography>
-      <TapasTour />
-      <Typography variant='h4' gutterBottom id='day_one_2'>
-        Pre-dinner activity at Fabrica Moritz
+      <Typography variant='h4' >
+        *FICHA*
+      </Typography>
+     
+      <Typography variant='h6' paragraph>
+        Between 14.30h and 15.00h guests from the first group will arrive from the restaurant and they will do the check-ing. The Second group will arrive in Barcelona's Airport at 13.50h, so we calculate that they will be at the hotel at 15.00h to do the check-in too.
       </Typography>
       <Typography variant='h6' paragraph>
-        Tonight we are going to enjoy dinner at the legendary
-        <strong>Fabrica Moritz</strong>, which is a very famous local beer
-        brewery. We will take a tour of the brewery en enjoy 4 x different beer
-        tasting, in an activity that will take around 25 minutes, and will lead
-        to dinner.
+        After check-in, our guests will have free time to relax.
+        Then, at 16.30h we propose them an activity that will allow them to know Sitges and have a very funny time. 
       </Typography>
-      <FabricaMoritz />
+      <Typography variant='h4' gutterBottom id='day_one_2'>
+        Rally gimkhana scavenger hunt in Sitges
+      </Typography>
+      <Typography variant='h4' >
+        *FICHA*
+      </Typography>
+      <Typography variant='h6' paragraph>
+        The activity will end at the hotel, They will have a few minutes to refresh and then they will go to the Skybar at the 7th floor to enjoy a welcome drink and a very nice dinner.
+      </Typography>
+      <Typography variant='h4' gutterBottom id='day_one_3'>
+       MiM Skybar
+      </Typography>
+      <Typography variant='h4' >
+        *FOTOS*
+      </Typography>
       <Typography variant='h4' gutterBottom id='day_two'>
-        <strong>Saturday, May 21st </strong>
+        <strong>Friday, May 6th </strong>
       </Typography>
       <Typography variant='h4' gutterBottom id='day_two_1'>
-        FC Barcelona Experience
+        Meeting
       </Typography>
-      <BcnExperience />
-      <Typography variant='h4' gutterBottom>
-        Lunch at the Beach
+      <Typography variant='h6' paragraph>
+        Half Day meeting. Meeting room: 112m2 with natural daylight. 
       </Typography>
-      <ElArenal />
-      <Typography variant='h5' gutterBottom>
-        After lunch, we will give the group a free afternoon, so that they can
-        enjoy the Port and the beach
+      <Typography variant='h4' >
+        *FOTOS*
+      </Typography>
+      <Typography variant='h6' paragraph>
+        After the meeting they will go walking to restaurant Picnic for lunch
+      </Typography>
+      <Typography variant='h4' gutterBottom id='day_two_2'>
+        Restaurant Picnic
+      </Typography>
+      <Typography variant='h4' >
+        *FICHA*
+      </Typography>
+      <Typography variant='h6' paragraph>
+      After lunch, guests will walk for about 15 minutes to Terramar beach, where they will start a beautiful kayak trip along the coast.
       </Typography>
       <Typography variant='h4' gutterBottom id='day_two_3'>
-        Dinner options for Saturday
+       Kayak Excursion
       </Typography>
-      <div id='d2d0' />
-      <div id='d2d1' />
-      <VendorOptionsTab name1='Cafeteria Nuria' name2='Braseria El Glop'>
-        <Nuria />
-        <ElGlop />
-      </VendorOptionsTab>
+      <Typography variant='h4' >
+        *FICHA*
+      </Typography>
+      <Typography variant='h6' paragraph>
+      Once finished the activity guests will enjoy some free time. They have the option to return to the hotel, walking around 15 to 20 minutes or enjoy the beach, go shopping... 
+      </Typography>
+      <Typography variant='h6' paragraph>
+      At 20.00h guests will meet at the hotel lobby to pick up a coach that will transfer them to the restaurant for dinner
+      </Typography>
+      <Typography variant='h4' gutterBottom id='day_two_4'>
+       Restaurant La Taberna del Port
+      </Typography>
+      <Typography variant='h4' >
+        *FICHA*
+      </Typography>
+
       <Typography variant='h4' gutterBottom id='day_three'>
-        <strong>Sunday, May 22nd </strong>
+        <strong>Saturday, May 7th </strong>
       </Typography>
       <Typography variant='h4' gutterBottom id='day_three_1'>
-        Morning walking tour of the <strong>Eixample</strong> district
+      Trekking Activity
       </Typography>
-      <WalkingTour />
+      <Typography variant='h4' >
+        *FICHA*
+      </Typography>
+      <Typography variant='h6' paragraph>
+      In the morning, before leaving the hotel, each guest will be given a bag with two medium sandwiches, a piece of fruit, a chocolate bar and a bottle of water.
+This packed lunch is provided so that they can make a stop during the activity to have lunch.
+      </Typography>
+      <Typography variant='h6' paragraph>
+      At the end of the activity, the bus will take them back to the hotel where they will enjoy some free time until dinner.
+      </Typography>
+      <Typography variant='h6' paragraph>
+      At 20.00h guests will be transferred to the restaurant for dinner
+      </Typography>
       <Typography variant='h4' gutterBottom id='day_three_2'>
-        For lunch, we offer the following option ...
+        La Daurada
       </Typography>
-      <CorCaliu />
-      <Typography variant='h6' gutterBottom id='day_three_3'>
-        In the later afternoon, the group will be coached to the Stadium for a
-        vibrating game of FCBarcelona. We will guide the group to the Stadium,
-        and wait for them. On our way back, we will drop the group in the final
-        restaurant for dinner
+      <Typography variant='h4' >
+        *FICHA*
       </Typography>
-      <div id='d3d0' />
-      <div id='d3d1' />
-      <VendorOptionsTab name1='Mana 75' name2='Marina Monchos'>
-        <Mana75 />
-        <MarinaMonchos />
-      </VendorOptionsTab>
+
+
       <Typography variant='h4' gutterBottom id='day_four'>
-        <strong>Monday, May 23rd </strong>
+        <strong>Sunday, May 8th </strong>
       </Typography>
-      <Typography variant='h6' gutterBottom id='day_four_1'>
+      <Typography variant='h6' >
         We will end the programme with a transfer to the airport by bus
       </Typography>
       <Typography variant='h4' gutterBottom>
         <strong>Budget</strong>
       </Typography>
       <Typography variant='h6' gutterBottom>
-        All quoted menus include 2x glasses of wine per.person except{" "}
-        <strong>Fabrica Moritz</strong>, which is a beer brewery and has a
-        supplement for wines. Spanish restaurants always quote 2x glasses per
-        person.
-      </Typography>
-      <Typography variant='h6' gutterBottom>
-        The menu cost detailed at <strong>El Arenal</strong> includes the
-        supplement that the property charges for dining in the terrace. Should
-        the group wish to dine inside, there is a discount of EUR 3 p.person on
-        the chosen menu.
+        <em>All quoted menus include 2x glasses of wine per person and coffee</em>
       </Typography>
 
       <div>

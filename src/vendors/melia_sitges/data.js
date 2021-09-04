@@ -6,32 +6,32 @@ import hotel5 from "./hotel5.jpg";
 import hotel6 from "./hotel6.jpg";
 import hotel7 from "./hotel7.jpg";
 import hotel8 from "./hotel8.jpg";
-import hotel9 from "./hotel9.jpg";
+
 
 export const meliasitges = {
-  id: "hotelbcn_catalonia_montblanc",
+  id: "hotel_melia_sitges",
   cat: "hospitality",
   type: "Hospitality",
   title: "Hotel Melia Sitges",
   rooms: [
     {
       title: "Double room for ind Use, incl breakfast",
-      units: 2,
+      units: 0,
       occupancy: 1,
       nights: 3,
-      unitcost: 137.5,
+      unitcost: 154,
     },
     {
       title: "Double room, for twin use, incl breakfast",
-      units: 7,
+      units: 25,
       occupancy: 2,
       nights: 3,
-      unitcost: 137.5,
+      unitcost: 165,
     },
     {
       cat: "citytax",
       title: "city tax, per night per person, incl VAT",
-      unitcost: 1.54,
+      unitcost: 1,
     },
   ],
 };
@@ -39,37 +39,23 @@ export const meliasitges = {
 export const text = {
   variant: "h6",
   paras: [
-    `  The <strong>HCC Montblanc</strong> is a 3-star hotel which could well
-    be classified as a 4-star. The location is unbeatable in Via Laietana,
-    right in the Gothic district, and close to Plaça Catalunya and metro
-    lines.`,
+    `  This hotel in Sitges offers more than 300 rooms of various categories, all with furnished terrace and complete bathroom, with satellite TV and wifi internet connection, which guarantee a good stay thanks also to its modern decoration in warm tones. You can relax in the outdoor swimming pools for adults and children in summer. You can taste all kinds of Mediterranean and international recipes in the hotel restaurant's dinners, and start the day with a good breakfast buffet with fresh products and freshly prepared dishes in the show cooking.`,
 
-    ` Although located in a buzzing street, all 157 rooms are sound proof,
-    the building is new and all rooms are modern and well appointed.
-    Double Rooms for single or double use are in average 23sqm. Some rooms
-    include 10sqm terraces`,
-
-    ` The property also offers a Restaurant, a Bar/lounge to relax and an a
-    spacious outdoor pool.`,
-
-    `   The property is following the strictest of <strong>COVID</strong>
-    protocols, including all linens sanitized in high-temperature wash,
-    floors marked for social distancing, hand sanitizers available
-    everywhere, and regularly sanitized high-traffic areas.`,
+    `  Melià Sitges is overlooking the Aiguadolç Marina in Sitges, with easy access to the C-31 motorway which takes 20 minutes to El Prat Airport and 30 minutes to the centre of Barcelona, this hotel has an excellent location on the outskirts of the town. Only a 15-minutes walk will take you to the beautiful streets of Sitges, with numerous museums, shops and bars and 300 metres from the hotel are the small coves of the Marina and Caleta de Sitges.`,
   ],
 };
 
 export const leftIconsText = [
-  "Gothic Quarter",
-  "1x Restaurant 1 piano-Bar/Lounge",
-  "157rooms",
+  "Sitges - Port Aiguadolç",
+  "Restaurants & Bars",
+  "300 rooms",
   "High Speed, available",
 ];
 
 export const rightIconsText = [
   "1x outdoor pool",
   "checkin/out 2pm / 12pm",
-  "2 x meeting rooms",
+  "19 x meeting rooms",
   "Wheelchair accessible",
 ];
 
@@ -79,42 +65,32 @@ export const photos = [
     thumbnail: hotel1,
     thumbnailWidth: 271,
     thumbnailHeight: 180,
-    tags: [{ value: "Common areas", title: "Nature | Flowers" }],
-    caption: "Walkway inside the Hotel",
+    caption: "Façade of the Hotel",
+    tags: [{ value: "General view " }],
   },
   {
     src: hotel2,
     thumbnail: hotel2,
     thumbnailWidth: 320,
     thumbnailHeight: 190,
-    tags: [
-      { value: "Front Desk", title: "Architecture | Outdoors" },
-      /*   { value: "Industrial", title: "Industrial" }, */
-    ],
-    caption: "Front Desk",
+    caption: "Double room",
+    tags: [{ value: "Double room " }],
   },
   {
     src: hotel3,
     thumbnail: hotel3,
     thumbnailWidth: 320,
     thumbnailHeight: 230,
-    tags: [
-      { value: "Façade" },
-      /*  { value: "Architecture" },
-      { value: "Industrial" }, */
-    ],
-    caption: "Hotel's Façade.",
+    caption: "Swimming Pool and Gardens",
+    tags: [{ value: "Swimming Pool and Gardens" }],
   },
   {
     src: hotel4,
     thumbnail: hotel4,
     thumbnailWidth: 320,
     thumbnailHeight: 213,
-    tags: [
-      { value: "Nearby Locations" },
-      /*   { value: "Industrial" }, */
-    ],
-    caption: "Centrally Located",
+    caption: "Sea views",
+    tags: [{ value: "Sea views" }],
   },
   {
     src: hotel5,
@@ -129,8 +105,8 @@ export const photos = [
     thumbnail: hotel6,
     thumbnailWidth: 320,
     thumbnailHeight: 220,
-    tags: [{ value: "Pool area" }],
-    caption: "Swimming Pool outdoors",
+    tags: [{ value: "Common Areas" }],
+    caption: "Common Areas",
   },
   {
     src: hotel7,
@@ -148,12 +124,5 @@ export const photos = [
     caption: "Well appointed bathroom with amenities",
     tags: [{ value: "Bathroom with amenities" }],
   },
-  {
-    src: hotel9,
-    thumbnail: hotel9,
-    thumbnailWidth: 320,
-    thumbnailHeight: 213,
-    caption: "Terrace",
-    tags: [{ value: "Terrace with views" }],
-  },
+
 ];
