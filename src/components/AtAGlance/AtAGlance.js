@@ -17,21 +17,21 @@ const rows = [
     data: [
       "Group 1: Arrival",
       "Meeting",
-      "Hiking Activity",
+      "Trekking Activity",
       "Departures",
     ],
   },
   {
     icon: <LocalDiningTwoToneIcon />,
     time: "Lunch",
-    data: ["Restaurant Kauai", "La Taberna del Puerto", "Boxed lunch", ""],
+    data: ["Aiguadolç Beach Bar", "Restaurant PicNic", "Packed lunch", ""],
   },
   {
     icon: <Brightness4TwoToneIcon />,
     time: "Afternoon",
     data: [
-      "Group 2 - Arrival // Group 1 & 2 - Bike activity",
-      "Paddle Surf Activity",
+      "Group 2 - Arrival // Group 1 & 2 - Scavengers Hunt",
+      "Kayak Excursion",
       "Free time",
       "",
     ],
@@ -41,7 +41,7 @@ const rows = [
     time: "Dinner",
     data: [
       "Dinner at the hotel Rooftop",
-      "Restaurant Picnic",
+      "Restaurant La Taberna del Puerto",
       "Restaurant La Daurada",
       "",
     ],

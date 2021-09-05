@@ -13,6 +13,43 @@ const optionsArray = [
     icon: hospitalMarker,
     cat: "accommodation",
   },
+  {
+    text: "Hotel Melià Sitges",
+    coords: [1.8239189, 41.2367832],
+    icon: hospitalMarker,
+    cat: "accommodation",
+  },
+  {
+    text: "PicNic",
+    coords: [1.8056693, 41.2343043],
+    icon: silverwareVariant,
+    cat: "restaurant",
+  },
+
+  {
+    text: "La Taberna del Puerto",
+    coords: [1.82556, 41.23486],
+    icon: silverwareVariant,
+    cat: "restaurant",
+  },
+  {
+    text: "La Daurada",
+    coords: [1.7279408, 41.2098795],
+    icon: silverwareVariant,
+    cat: "restaurant",
+  },
+  {
+    text: "Kayak Activity",
+    coords: [1.7890417718695346, 41.22503141616244],
+    icon: medalOutline,
+    cat: "activity",
+  },
+  {
+    text: "Trekking Activity",
+    coords: [1.8395588, 41.2865203],
+    icon: medalOutline,
+    cat: "activity",
+  },
 /*   {
     text: "El Arenal",
     coords: [2.1958216, 41.3848301],
@@ -63,7 +100,7 @@ export default function OverviewMap({ center, zoom }) {
 OverviewMap.defaultProps = {
   center: {
     lat: 41.2347603,
-    lng: 1.8041102,
+    lng: 1.8033367096917061,
   },
-  zoom: 16,
+  zoom: 14,
 };
